@@ -1,26 +1,25 @@
-import {Component} from "react";
-import logo from "../logo.svg";
-import React from "react";
-import './App.css';
+import React, {Component} from "react";
+import {Header, Image} from "semantic-ui-react";
+import ItemList from "./ItemList";
+import AboutMe from "./AboutMe";
 
 class Home extends Component {
     render() {
         return (
             <div>
-                <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
-                <p>
-                    Edit <code>src/App.tsx</code> and save to reload.
-                </p>
-                <a
-                className="App-link"
-                href="https://reactjs.org"
-                target="_blank"
-                rel="noopener noreferrer"
-                    >
-                    Learn React
-                </a>
-                </header>
+                <div className="home-header">
+                    <Header as="h2" icon textAlign="center">
+                        <Header.Content>
+                            <Image src="images/myAvatar.svg" size="small" width="4em" alt="avatar" centered circular
+                                   bordered/>
+                        </Header.Content>
+                        <Header.Content>Jerry Wang</Header.Content>
+                        <Header.Content>(Software Engineer)</Header.Content>
+                    </Header>
+                </div>
+                <AboutMe/>
+                <ItemList/>
+
             </div>
         )
     }
