@@ -1,29 +1,30 @@
 import React, {Component} from "react";
-import {Container, Header, Icon, List} from "semantic-ui-react";
+import {Container, Grid, Header, Icon} from "semantic-ui-react";
 
 class AboutMe extends Component {
     render() {
         return (
             <Container>
-                <Header as="h2">
-                    <Icon name="university"/>
-                    <Header.Content>
-                        Education
-                    </Header.Content>
-                </Header>
-                <List>
-                    <List.Item>
-                        <List.Icon name='angle right'/>
-                        Bachelor of Engineering (Honours) (Major: Software) at University of Queensland
-                    </List.Item>
-                    <List.Item>
-                        <List.Icon name='angle right'/>
-                        International Baccalaureate (High School) at Queensland Academy for Science Mathematics and
-                        Technology
-                    </List.Item>
-                </List>
-            </Container>
+                <Grid columns={2} divided>
+                    <Grid.Column>
+                        <Header as="h2">
+                            <Icon name="user"/>
+                            <Header.Content>
+                                About Me
+                            </Header.Content>
+                        </Header>
 
+                    </Grid.Column>
+                    <Grid.Column>
+                        <Header as="h2">
+                            <Icon name="address book"/>
+                            <Header.Content>
+                                Contact Details
+                            </Header.Content>
+                        </Header>
+                    </Grid.Column>
+                </Grid>
+            </Container>
         )
     }
 }

@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import {Header, Image} from "semantic-ui-react";
 import ItemList from "./ItemList";
+import Education from "./Education";
 import AboutMe from "./AboutMe";
 
 class Home extends Component {
@@ -18,6 +19,7 @@ class Home extends Component {
                     </Header>
                 </div>
                 <AboutMe/>
+                <Education/>
                 <ItemList/>
 
             </div>
