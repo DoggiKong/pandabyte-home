@@ -14,7 +14,8 @@ class ProjectCard extends Component<ProjectCardProps> {
     render() {
         return (
             <Card
-                image={(this.props.image !== undefined) ? this.props.image : "/images/image-placeholder.png"}
+                image={(this.props.image !== undefined) ? this.props.image :
+                    process.env.PUBLIC_URL + "/images/image-placeholder.png"}
                 header={this.props.meta}
                 meta={this.props.meta}
                 description={this.props.description}
