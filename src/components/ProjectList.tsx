@@ -18,12 +18,13 @@ class ProjectList extends Component {
     render() {
         return (
             <Container>
-                <Header as="h2">
-                    <Icon name="book"/>
+                <Header as="h1" textAlign="center" attached="top" block>
                     <Header.Content>
+                        <Icon name="book"/>
                         Projects
                     </Header.Content>
                 </Header>
+                <Segment attached>
                 <div className="itemList-container">
                     <Grid columns={3} container stackable>
                         <Grid.Column>
@@ -48,6 +49,7 @@ class ProjectList extends Component {
                         </Grid.Column>
                     </Grid>
                 </div>
+                </Segment>
             </Container>
         )
     }
