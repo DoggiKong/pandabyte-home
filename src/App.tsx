@@ -22,7 +22,7 @@ class App extends Component {
                 <div className="home-header">
                     <Header as="h2" icon textAlign="center" className="text-item">
                         <Header.Content>
-                            <Image src="/images/myAvatar.svg" size="small" width="4em" alt="avatar" centered circular
+                            <Image src={process.env.PUBLIC_URL + "/images/myAvatar.svg"} size="small" width="4em" alt="avatar" centered circular
                                    bordered/>
                         </Header.Content>
                         <Header.Content>Jerry Wang</Header.Content>
