@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/pandabyte-home/static/media/icons.faff9214.woff"
   },
   {
-    "revision": "b1591f26f60df7fdb5e5",
-    "url": "/pandabyte-home/static/css/main.36022be1.chunk.css"
+    "revision": "254878cd4ef6cd7bcfe6",
+    "url": "/pandabyte-home/static/css/main.46f189e7.chunk.css"
   },
   {
     "revision": "0a3b950f26a54a6abe52",
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/pandabyte-home/static/media/brand-icons.a1a749e8.svg"
   },
   {
-    "revision": "9550c18c448e83ae0f2d",
-    "url": "/pandabyte-home/static/js/2.8e4e28f4.chunk.js"
+    "revision": "6396ca64eaad6e67b0d9",
+    "url": "/pandabyte-home/static/js/2.6676f5de.chunk.js"
   },
   {
     "revision": "cd6c777f1945164224dee082abaea03a",
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/pandabyte-home/static/media/icons.0ab54153.woff2"
   },
   {
-    "revision": "b1591f26f60df7fdb5e5",
-    "url": "/pandabyte-home/static/js/main.99fd78e0.chunk.js"
+    "revision": "254878cd4ef6cd7bcfe6",
+    "url": "/pandabyte-home/static/js/main.dbaaf6e4.chunk.js"
   },
   {
     "revision": "e8c322de9658cbeb8a774b6624167c2c",
@@ -56,20 +56,20 @@ self.__precacheManifest = [
     "url": "/pandabyte-home/static/media/brand-icons.a046592b.woff"
   },
   {
-    "revision": "b87b9ba532ace76ae9f6edfe9f72ded2",
-    "url": "/pandabyte-home/static/media/icons.b87b9ba5.ttf"
-  },
-  {
     "revision": "8e3c7f5520f5ae906c6cf6d7f3ddcd19",
     "url": "/pandabyte-home/static/media/icons.8e3c7f55.eot"
   },
   {
-    "revision": "13db00b7a34fee4d819ab7f9838cc428",
-    "url": "/pandabyte-home/static/media/brand-icons.13db00b7.eot"
+    "revision": "b87b9ba532ace76ae9f6edfe9f72ded2",
+    "url": "/pandabyte-home/static/media/icons.b87b9ba5.ttf"
   },
   {
     "revision": "c5ebe0b32dc1b5cc449a76c4204d13bb",
     "url": "/pandabyte-home/static/media/brand-icons.c5ebe0b3.ttf"
+  },
+  {
+    "revision": "13db00b7a34fee4d819ab7f9838cc428",
+    "url": "/pandabyte-home/static/media/brand-icons.13db00b7.eot"
   },
   {
     "revision": "82f60bd0b94a1ed68b1e6e309ce2e8c3",
@@ -80,11 +80,11 @@ self.__precacheManifest = [
     "url": "/pandabyte-home/static/media/icons.962a1bf3.svg"
   },
   {
-    "revision": "9550c18c448e83ae0f2d",
-    "url": "/pandabyte-home/static/css/2.0d642736.chunk.css"
+    "revision": "6396ca64eaad6e67b0d9",
+    "url": "/pandabyte-home/static/css/2.9ab25092.chunk.css"
   },
   {
-    "revision": "ad74a028ec8a1063633456c6684d707d",
+    "revision": "5e39d6c52bbd145e739c142ad9531beb",
     "url": "/pandabyte-home/index.html"
   }
 ];
