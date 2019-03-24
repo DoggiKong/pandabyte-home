@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
-import {BrowserRouter as Router, Route} from "react-router-dom";
+import {BrowserRouter, Route} from "react-router-dom";
 import Home from "./components/Home";
 import 'semantic-ui-css/semantic.min.css'
 import './style/index.scss'
-import {Container, Header, Image} from "semantic-ui-react";
+import {Container, Header, Image, Menu, Responsive, Sidebar} from "semantic-ui-react";
 import AboutMe from "./components/AboutMe";
 import MenuNav from "./components/common/MenuNav";
 
@@ -11,7 +11,14 @@ class App extends Component {
 
     render() {
         return (
-            <div>
+            <BrowserRouter basename={process.env.PUBLIC_URL}>
+                <Responsive {...Responsive.onlyMobile}>
+                    <MenuNav mobile />
+
+                </Responsive>
+                <Responsive minWidth={Responsive.onlyTablet.minWidth}>
+                    <MenuNav/>
+                </Responsive>
                 <div className="home-header">
                     <Header as="h2" icon textAlign="center" className="text-item">
                         <Header.Content>
@@ -23,14 +30,11 @@ class App extends Component {
                     </Header>
                 </div>
                 <Container>
-                    <Router>
-                        <MenuNav/>
-                        <Route path="/" exact component={Home}/>
-                        <Route path="/about" component={AboutMe}/>
-                    </Router>
 
+                    <Route path="/" exact component={Home}/>
+                    <Route path="/about" component={AboutMe}/>
                 </Container>
-            </div>
+            </BrowserRouter>
         );
     }
 }
