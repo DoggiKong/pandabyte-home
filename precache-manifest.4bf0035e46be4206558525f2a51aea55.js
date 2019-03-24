@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/pandabyte-home/static/media/icons.faff9214.woff"
   },
   {
-    "revision": "254878cd4ef6cd7bcfe6",
+    "revision": "2077d378e8034a0717e9",
     "url": "/pandabyte-home/static/css/main.46f189e7.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = [
     "url": "/pandabyte-home/static/media/brand-icons.a1a749e8.svg"
   },
   {
-    "revision": "6396ca64eaad6e67b0d9",
-    "url": "/pandabyte-home/static/js/2.6676f5de.chunk.js"
-  },
-  {
-    "revision": "cd6c777f1945164224dee082abaea03a",
-    "url": "/pandabyte-home/static/media/outline-icons.cd6c777f.woff2"
+    "revision": "fb176de8e2d431047437",
+    "url": "/pandabyte-home/static/js/2.d181dfa0.chunk.js"
   },
   {
     "revision": "ef60a4f6c25ef7f39f2d25a748dbecfe",
     "url": "/pandabyte-home/static/media/outline-icons.ef60a4f6.woff"
+  },
+  {
+    "revision": "cd6c777f1945164224dee082abaea03a",
+    "url": "/pandabyte-home/static/media/outline-icons.cd6c777f.woff2"
   },
   {
     "revision": "701ae6abd4719e9c2ada3535a497b341",
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/pandabyte-home/static/media/icons.0ab54153.woff2"
   },
   {
-    "revision": "254878cd4ef6cd7bcfe6",
-    "url": "/pandabyte-home/static/js/main.dbaaf6e4.chunk.js"
+    "revision": "2077d378e8034a0717e9",
+    "url": "/pandabyte-home/static/js/main.7c3a8b50.chunk.js"
   },
   {
     "revision": "e8c322de9658cbeb8a774b6624167c2c",
@@ -64,12 +64,12 @@ self.__precacheManifest = [
     "url": "/pandabyte-home/static/media/icons.b87b9ba5.ttf"
   },
   {
-    "revision": "c5ebe0b32dc1b5cc449a76c4204d13bb",
-    "url": "/pandabyte-home/static/media/brand-icons.c5ebe0b3.ttf"
-  },
-  {
     "revision": "13db00b7a34fee4d819ab7f9838cc428",
     "url": "/pandabyte-home/static/media/brand-icons.13db00b7.eot"
+  },
+  {
+    "revision": "c5ebe0b32dc1b5cc449a76c4204d13bb",
+    "url": "/pandabyte-home/static/media/brand-icons.c5ebe0b3.ttf"
   },
   {
     "revision": "82f60bd0b94a1ed68b1e6e309ce2e8c3",
@@ -80,11 +80,11 @@ self.__precacheManifest = [
     "url": "/pandabyte-home/static/media/icons.962a1bf3.svg"
   },
   {
-    "revision": "6396ca64eaad6e67b0d9",
+    "revision": "fb176de8e2d431047437",
     "url": "/pandabyte-home/static/css/2.9ab25092.chunk.css"
   },
   {
-    "revision": "5e39d6c52bbd145e739c142ad9531beb",
+    "revision": "6fea05fe19ae4be5665a6cf83b90d3c8",
     "url": "/pandabyte-home/index.html"
   }
 ];

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/pandabyte-home/precache-manifest.45e207d441904929892188a2076d9481.js"
+  "/pandabyte-home/precache-manifest.4bf0035e46be4206558525f2a51aea55.js"
 );
 
 workbox.clientsClaim();
