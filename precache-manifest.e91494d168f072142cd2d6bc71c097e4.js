@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/pandabyte-home/static/media/icons.faff9214.woff"
   },
   {
-    "revision": "2077d378e8034a0717e9",
+    "revision": "e45daa951b8aedd42322",
     "url": "/pandabyte-home/static/css/main.46f189e7.chunk.css"
   },
   {
@@ -20,12 +20,12 @@ self.__precacheManifest = [
     "url": "/pandabyte-home/static/js/2.d181dfa0.chunk.js"
   },
   {
-    "revision": "ef60a4f6c25ef7f39f2d25a748dbecfe",
-    "url": "/pandabyte-home/static/media/outline-icons.ef60a4f6.woff"
-  },
-  {
     "revision": "cd6c777f1945164224dee082abaea03a",
     "url": "/pandabyte-home/static/media/outline-icons.cd6c777f.woff2"
+  },
+  {
+    "revision": "ef60a4f6c25ef7f39f2d25a748dbecfe",
+    "url": "/pandabyte-home/static/media/outline-icons.ef60a4f6.woff"
   },
   {
     "revision": "701ae6abd4719e9c2ada3535a497b341",
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/pandabyte-home/static/media/icons.0ab54153.woff2"
   },
   {
-    "revision": "2077d378e8034a0717e9",
-    "url": "/pandabyte-home/static/js/main.7c3a8b50.chunk.js"
+    "revision": "e45daa951b8aedd42322",
+    "url": "/pandabyte-home/static/js/main.06dc0cea.chunk.js"
   },
   {
     "revision": "e8c322de9658cbeb8a774b6624167c2c",
@@ -56,16 +56,16 @@ self.__precacheManifest = [
     "url": "/pandabyte-home/static/media/brand-icons.a046592b.woff"
   },
   {
+    "revision": "13db00b7a34fee4d819ab7f9838cc428",
+    "url": "/pandabyte-home/static/media/brand-icons.13db00b7.eot"
+  },
+  {
     "revision": "8e3c7f5520f5ae906c6cf6d7f3ddcd19",
     "url": "/pandabyte-home/static/media/icons.8e3c7f55.eot"
   },
   {
     "revision": "b87b9ba532ace76ae9f6edfe9f72ded2",
     "url": "/pandabyte-home/static/media/icons.b87b9ba5.ttf"
-  },
-  {
-    "revision": "13db00b7a34fee4d819ab7f9838cc428",
-    "url": "/pandabyte-home/static/media/brand-icons.13db00b7.eot"
   },
   {
     "revision": "c5ebe0b32dc1b5cc449a76c4204d13bb",
@@ -84,7 +84,7 @@ self.__precacheManifest = [
     "url": "/pandabyte-home/static/css/2.9ab25092.chunk.css"
   },
   {
-    "revision": "6fea05fe19ae4be5665a6cf83b90d3c8",
+    "revision": "acf0a5a761799509ae831ba5064efda1",
     "url": "/pandabyte-home/index.html"
   }
 ];
