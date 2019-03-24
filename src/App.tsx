@@ -13,7 +13,7 @@ class App extends Component {
         return (
             <div>
                 <div className="home-header">
-                    <Header as="h2" icon textAlign="center">
+                    <Header as="h2" icon textAlign="center" className="text-item">
                         <Header.Content>
                             <Image src="/images/myAvatar.svg" size="small" width="4em" alt="avatar" centered circular
                                    bordered/>
